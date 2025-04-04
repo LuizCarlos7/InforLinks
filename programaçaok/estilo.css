@@ -1,0 +1,51 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+#cabeçalho{
+    height: 150px;
+    background-color: coral ;
+    width: 98%;
+    margin: 0 auto;
+
+}
+
+#menu{
+    height: 450px;
+    background-color: bisque;
+    width: 200px;
+    flood-color: left;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+#principal{
+    height: 450px;
+    background-color: chartreuse;
+    width: 1000px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+#lado{
+    height: 450px;
+    background-color: blueviolet;
+    width: 200px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+#rodape{
+    height: 100px;
+    background-color: darkgreen;
+    clear: both;
+    width: 98%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
