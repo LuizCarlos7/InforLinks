@@ -9,6 +9,9 @@ export default function Index () {
             <Text>Endereço: Portugal,Ilha da Madeira</Text>
             <Text>Status: Casado</Text>
             <Text>Filhos: 5</Text>
+            <Text>Time: Al nass</Text>
+            <Text>Idade: 40 Anos</Text>
+            <Text>5 Ballon d'Or</Text>
         </View>    
     );// Componente Text sendo usando para Renderizar um texto na tela
 }
