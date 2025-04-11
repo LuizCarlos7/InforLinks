@@ -1,21 +1,28 @@
 import { View, Text, StyleSheet } from "react-native";
-// Export default é o metodo usado para dizer ao ExporRouter que esse componente é uma Rota.
+// Import para uso no mobile.
 export default function Index () {
     return (
-        <View>
-            <Text style={style.title} >Siiiiiu!!</Text>
-            <Text style={style.title2} >Cristiano Ronaldo dos Santos Alveiro</Text>
-            <Text style={style.title3} >Nascimento: 05/02/1985</Text>
-            <Text style={style.title5}>Endereço: Portugal,Ilha da Madeira</Text>
-            <Text style={style.title6}>Status: Casado</Text>
-            <Text style={style.title7}>Filhos: 5</Text>
-            <Text style={style.title8}>Time: Al nass</Text>
-            <Text style={style.title9}>Idade: 40 Anos</Text>
-            <Text style={style.title10}>5 Ballon d'Or</Text>            
+        <View style={styles.container}>
+            <Text style={styles.title} >Siiiiiu!!</Text>
+            <Text style={styles.title2} >Cristiano Ronaldo dos Santos Alveiro</Text>
+            <Text style={styles.title3} >Nascimento: 05/02/1985</Text>
+            <Text style={styles.title5}>Endereço: Portugal,Ilha da Madeira</Text>
+            <Text style={styles.title6}>Status: Casado</Text>
+            <Text style={styles.title7}>Filhos: 5</Text>
+            <Text style={styles.title8}>Time: Al nass</Text>
+            <Text style={styles.title9}>Idade: 40 Anos</Text>
+            <Text style={styles.title10}>5 Ballon d'Or</Text>            
         </View>    
-    );// Componente Text sendo usando para Renderizar um texto na tela
+    );// estilo para uso no mobile
 }
-const style = StyleSheet.create({
+const styles = StyleSheet.create({
+
+    container: {
+        flex: 1, // Considera toda a area util da tela para os componentes
+        justifyContent: "center", // Justifica (ajusta) todos os elementos no centro da tela
+        alignItems: "center", // Alinha todos os elementos no centro da tela
+        flexDirection: "row", // Organiza todos os elementos dentro do flex box em linha
+    },
     title: {
         color: "red",
         fontSize: 30,
